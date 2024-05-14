@@ -41,7 +41,7 @@ const Index = () => {
   return (
     <Container centerContent maxW="container.md" p={4}>
       <VStack spacing={4} width="100%">
-        <Text fontSize="2xl" mb={4}>GPT-3.5 Turbo Prompter</Text>
+        <Text fontSize="2xl" mb={4}>GPT-3.5 Turbo</Text>
         <Textarea
           placeholder="Enter your prompt here..."
           value={prompt}
